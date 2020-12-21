@@ -1,0 +1,20 @@
+.main-header {
+   background-color: #8B0000;
+   padding: 5px 40px;
+}
+
+.main-title {
+   font-size: 48px;
+   font-family: Luminari, serif;
+   font-weight: bold;
+}
+
+.main-body {
+   background-color: #A9A9A9;
+   padding: 5px 40px;
+}
+
+.main-footer {
+   background-color: #8B0000;
+   padding: 15px;
+}
