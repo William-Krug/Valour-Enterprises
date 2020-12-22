@@ -1,3 +1,10 @@
+@font-face {
+   font-family: 'Luminari';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Luminari'), url('../fonts.Luminari-Regular.woff') format('woff');
+}
+
 * {
    box-sizing: border-box;
 }
@@ -26,7 +33,7 @@ nav {
 
 .main-body {
    background-color: #CDCBCC;
-   /* background-image: url('images/white-and-grey-stone-background.jpg'); */
+   /* background-image: url('../images/stone.jpeg'); */
    padding: 5px 40px;
    position: relative;
    top: 175px;
