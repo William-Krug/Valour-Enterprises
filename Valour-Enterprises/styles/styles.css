@@ -19,12 +19,34 @@ header {
 }
 
 nav {
-   background-color: #A9A9A9;
-   width: 10%;
+   /* background-color: #A9A9A9; */
+   width: 60%;
    float: right;
 }
 
-nav li {
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   color: #000000;
+   background-color: #A9A9A9;
+   font-weight: bold;
+   font-size: 24px;
+   text-align: center;
+}
+
+nav ul li {
+   float: left;
+}
+
+nav ul li a {
+   display: block;
+   padding: 20px;
+   color: #000000;
+   font-weight: bold;
+   font-size: 24px;
+   text-align: center;
    text-decoration: none;
 }
 
