@@ -1,22 +1,29 @@
+* {
+   box-sizing: border-box;
+}
+
 header {
    background-color: #8B0000;
    padding: 5px 40px;
+   /* position: fixed; */
+   /* width: 100%
+   z-index: 5; */
 }
 
-/* nav {
+nav {
    background-color: #A9A9A9;
-   position: fixed;
-   width: 30%
-} */
+   width: 10%;
+}
 
 .main-title {
    font-size: 48px;
    font-family: Luminari, serif;
    font-weight: bold;
+   margin: 0 auto;
 }
 
 .main-body {
-   background-color: #A9A9A9;
+   background-image:
    padding: 5px 40px;
 }
 
