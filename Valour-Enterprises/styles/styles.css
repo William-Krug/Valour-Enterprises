@@ -5,9 +5,10 @@
 header {
    background-color: #8B0000;
    padding: 5px 40px;
-   /* position: fixed; */
-   /* width: 100%
-   z-index: 5; */
+   display: inline-block;
+   position: fixed;
+   width: 100%;
+   z-index: 5;
 }
 
 nav {
@@ -19,12 +20,16 @@ nav {
    font-size: 48px;
    font-family: Luminari, serif;
    font-weight: bold;
-   margin: 0 auto;
+   position: relative;
+   width: 30%;
 }
 
 .main-body {
-   background-image:
+   background-color: #CDCBCC;
+   /* background-image: url('images/white-and-grey-stone-background.jpg'); */
    padding: 5px 40px;
+   position: relative;
+   top: 175px;
 }
 
 .main-footer {
