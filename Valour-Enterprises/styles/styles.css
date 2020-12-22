@@ -21,25 +21,41 @@ header {
 nav {
    background-color: #A9A9A9;
    width: 10%;
+   float: right;
+}
+
+nav li {
+   text-decoration: none;
 }
 
 .main-title {
    font-size: 48px;
    font-family: Luminari, serif;
    font-weight: bold;
+   color: #000000;
    position: relative;
    width: 30%;
+   float: left;
 }
 
-.main-body {
+main {
    background-color: #CDCBCC;
    /* background-image: url('../images/stone.jpeg'); */
    padding: 5px 40px;
    position: relative;
    top: 175px;
+   /* bottom: 100px; */
+   width: 100%;
+   margin: 0;
 }
 
-.main-footer {
+p {
+   line-height: 2;
+}
+
+footer {
    background-color: #8B0000;
    padding: 15px;
+   position: fixed;
+   width: 100%;
 }
