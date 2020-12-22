@@ -1,7 +1,13 @@
-.main-header {
+header {
    background-color: #8B0000;
    padding: 5px 40px;
 }
+
+/* nav {
+   background-color: #A9A9A9;
+   position: fixed;
+   width: 30%
+} */
 
 .main-title {
    font-size: 48px;
