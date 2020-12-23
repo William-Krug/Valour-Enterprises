@@ -5,6 +5,33 @@
    src: local('Luminari'), url('../fonts.Luminari-Regular.woff') format('woff');
 }
 
+@font-face {
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/ubuntu/v15/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoCjC3jsGyNPYZvgw.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoCxCvjsGyNPYZvgw.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 * {
    box-sizing: border-box;
 }
@@ -26,32 +53,34 @@ nav {
 .button {
    background-color: #A9A9A9;
    padding: 16px;
-   /* font-family: Luminari, serif; */
+   font-family: 'Ubuntu', sans-serif;
    font-size: 24px;
+   font-weight: 500;
    border: none;
    text-decoration: none;
 }
 
 .dropbtn {
-  background-color: #A9A9A9;
-  padding: 16px;
-  /* font-family: Luminari, serif; */
-  font-size: 24px;
-  border: none;
+   background-color: #A9A9A9;
+   padding: 16px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+   border: none;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+   position: relative;
+   display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
 }
 
 .button a {
@@ -60,10 +89,10 @@ nav {
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
 }
 
 .dropdown-content a:hover {
@@ -96,6 +125,7 @@ main {
 
 p {
    line-height: 2;
+   font-family: 'Ubuntu', sans-serif;
    font-weight: bold;
 }
 
