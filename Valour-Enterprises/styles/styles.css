@@ -13,33 +13,38 @@ header {
    background-color: #8B0000;
    padding: 5px 40px;
    display: inline-block;
-   /* position: fixed; */
    width: 100%;
-   /* z-index: 5; */
 }
 
 nav {
-   /* background-color: #A9A9A9; */
-   width: 60%;
+   background-color: #A9A9A9;
+   width: 40%;
    float: right;
 }
 
-/* Dropdown Button */
+/* Navigation Buttons */
+.button {
+   background-color: #A9A9A9;
+   padding: 16px;
+   /* font-family: Luminari, serif; */
+   font-size: 24px;
+   border: none;
+   text-decoration: none;
+}
+
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #A9A9A9;
   padding: 16px;
-  font-size: 16px;
+  /* font-family: Luminari, serif; */
+  font-size: 24px;
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -49,7 +54,11 @@ nav {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+.button a {
+   text-decoration: none;
+   color: #000000;
+}
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -57,39 +66,12 @@ nav {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-nav ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   color: #000000;
-   background-color: #A9A9A9;
-   font-weight: bold;
-   font-size: 24px;
-   text-align: center;
+.dropdown-content a:hover {
+   background-color: #ddd;
 }
 
-nav ul li {
-   float: left;
-}
-
-nav ul li a {
+.dropdown:hover .dropdown-content {
    display: block;
-   padding: 20px;
-   color: #000000;
-   font-weight: bold;
-   font-size: 24px;
-   text-align: center;
-   text-decoration: none;
 }
 
 .logo {
@@ -101,7 +83,6 @@ nav ul li a {
    font-family: Luminari, serif;
    font-weight: bold;
    color: #000000;
-   /* position: relative; */
    width: 30%;
    float: left;
 }
@@ -110,10 +91,6 @@ main {
    background-color: #CDCBCC;
    background-image: url('../images/white-marble-texture-abstract-background_28586-1427.jpg');
    padding: 5px 40px;
-   position: relative;
-   /* top: 175px; */
-   /* bottom: 100px; */
-   /* width: 100%; */
    margin: 0;
 }
 
@@ -125,6 +102,4 @@ p {
 footer {
    background-color: #8B0000;
    padding: 15px;
-   /* position: fixed; */
-   /* width: 100%; */
 }
