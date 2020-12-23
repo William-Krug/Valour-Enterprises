@@ -13,9 +13,9 @@ header {
    background-color: #8B0000;
    padding: 5px 40px;
    display: inline-block;
-   position: fixed;
-   width: 100%;
-   z-index: 5;
+   /* position: fixed; */
+   /* width: 100%; */
+   /* z-index: 5; */
 }
 
 nav {
@@ -50,6 +50,10 @@ nav ul li a {
    text-decoration: none;
 }
 
+.logo {
+   width: 50px;
+}
+
 .main-title {
    font-size: 48px;
    font-family: Luminari, serif;
@@ -62,17 +66,18 @@ nav ul li a {
 
 main {
    background-color: #CDCBCC;
-   /* background-image: url('../images/stone.jpeg'); */
+   background-image: url('../images/white-marble-texture-abstract-background_28586-1427.jpg');
    padding: 5px 40px;
    position: relative;
-   top: 175px;
+   /* top: 175px; */
    /* bottom: 100px; */
-   width: 100%;
+   /* width: 100%; */
    margin: 0;
 }
 
 p {
    line-height: 2;
+   font-weight: bold;
 }
 
 footer {
