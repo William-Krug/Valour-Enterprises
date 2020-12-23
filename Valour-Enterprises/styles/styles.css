@@ -47,6 +47,7 @@ nav {
    background-color: #A9A9A9;
    width: 40%;
    float: right;
+   align-items: center;
 }
 
 /* Navigation Buttons */
@@ -77,7 +78,7 @@ nav {
 .dropdown-content {
    display: none;
    position: absolute;
-   background-color: #f1f1f1;
+   background-color: #F1F1F1;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
    z-index: 1;
@@ -96,7 +97,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-   background-color: #ddd;
+   background-color: #DDDDDD;
 }
 
 .dropdown:hover .dropdown-content {
@@ -104,11 +105,12 @@ nav {
 }
 
 .logo {
+   float: left;
    width: 50px;
 }
 
 .main-title {
-   font-size: 48px;
+   font-size: 72px;
    font-family: Luminari, serif;
    font-weight: bold;
    color: #000000;
@@ -123,10 +125,17 @@ main {
    margin: 0;
 }
 
+h2 {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 36px;
+   font-weight: bold;
+}
+
 p {
    line-height: 2;
    font-family: 'Ubuntu', sans-serif;
-   font-weight: bold;
+   font-size: 24px;
+   font-weight: 500;
 }
 
 footer {
