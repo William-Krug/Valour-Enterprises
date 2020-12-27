@@ -116,6 +116,7 @@ nav {
    color: #000000;
    width: 55%;
    float: left;
+   padding-left: 3%;
 }
 
 main {
@@ -129,6 +130,8 @@ h2 {
    font-family: 'Ubuntu', sans-serif;
    font-size: 36px;
    font-weight: bold;
+   margin: 0 auto;
+   width: 60%;
 }
 
 p {
@@ -136,6 +139,14 @@ p {
    font-family: 'Ubuntu', sans-serif;
    font-size: 24px;
    font-weight: 500;
+   margin: 0 auto;
+   width: 60%
+}
+
+.firstLetter {
+   font-size: 48px;
+   font-family: Luminari, serif;
+   font-weight: bold;
 }
 
 footer {
