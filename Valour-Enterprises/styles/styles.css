@@ -38,22 +38,24 @@
 
 header {
    background-color: #8B0000;
-   padding: 5px 40px;
-   display: inline-block;
+   display: inline-flex;
    width: 100%;
+   justify-content: space-between;
+   align-items: center;
 }
 
 nav {
    background-color: #A9A9A9;
-   width: 40%;
-   float: right;
+   height: 75px;
+   width: 700px;
+   display: flex;
    align-items: center;
 }
 
 /* Navigation Buttons */
 .button {
    background-color: #A9A9A9;
-   padding: 16px;
+   padding-left: 20px;
    font-family: 'Ubuntu', sans-serif;
    font-size: 24px;
    font-weight: 500;
@@ -63,7 +65,7 @@ nav {
 
 .dropbtn {
    background-color: #A9A9A9;
-   padding: 16px;
+   padding-left: 20px;
    font-family: 'Ubuntu', sans-serif;
    font-size: 24px;
    font-weight: 500;
@@ -104,9 +106,15 @@ nav {
    display: block;
 }
 
+.logo-title {
+   display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
 .logo {
-   float: left;
-   width: 5%;
+   width: 100px;
+   margin-left: 100px;
 }
 
 .main-title {
@@ -114,9 +122,8 @@ nav {
    font-family: Luminari, serif;
    font-weight: bold;
    color: #000000;
-   width: 55%;
-   float: left;
-   padding-left: 3%;
+   margin-left: 25px;
+   padding-left: 25px;
 }
 
 main {
